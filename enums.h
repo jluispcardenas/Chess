@@ -42,4 +42,9 @@ typedef struct move
     }
 } move_t;
 
+// Utility functions
+const char* pieceTypeToString(pieceType type);
+const char* pieceColorToString(pieceColor color);
+const char* gameModeToString(gameMode mode);
+
 #endif // ENUMS_H
